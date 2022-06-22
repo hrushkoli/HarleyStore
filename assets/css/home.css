@@ -1,0 +1,33 @@
+
+
+.product-image .social{
+    padding:0;
+    margin:0;
+    list-style: none;
+    transform:translateY(-100px);
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+}
+
+.product-image .ProdNamTxt {
+    font-size:20px;
+}
+
+.product-image .pic {
+    margin-top:80px;
+    max-width: 280px;
+    height:auto;
+}
+
+.pic:hover{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    transform: scale(1.005);     
+}
+
+.category{
+    text-decoration: none; 
+    color: rgb(53, 53, 53); 
+    font-size:24px;
+}

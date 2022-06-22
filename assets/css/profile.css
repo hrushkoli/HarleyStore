@@ -1,0 +1,105 @@
+
+.BoxLeft  {
+    position: relative;
+    top: 150px;
+    /* z-index: 20px !important; */
+
+    border: 1px solid black;
+    width: 1100px;
+    height: 300px;
+    background-color: #6c3cac;         
+    /* This set radius to all 4 corners */  
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:20px;
+    color: white;
+}
+
+
+body .Indexcontainer div .BoxRight img  {
+    position: relative;
+    border: 1px solid black;
+    width: 550px;
+    height: auto;
+    /* background-color: #6c3cac;          */
+    /* This set radius to all 4 corners */  
+    border-radius: 20px;
+    padding: -30px;
+    margin-top: -50px;
+    margin-left: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:20px;
+    color: white;
+}
+
+
+.Bttn {
+    border: 1px solid black;
+    background-color: #ffffff;         
+    /* This set radius to all 4 corners */  
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width:199px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:20px;
+    text-decoration: none;
+    color: #6c3cac;
+}
+
+.slide2 {
+    background-color: black;
+    height: 700px;
+    top: 100%;
+}
+
+.slide2 h1{
+    padding: 150px;
+    padding-top: 100px;
+    color: white;
+}
+
+.slide3 {
+    background-color: rgb(27, 27, 27);
+    height: 600px;
+    top: 100%;
+}
+
+.slide3 h1{
+    padding: 150px;
+    padding-top: 100px;
+    color: white;
+}
+
+.slide4 {
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+    top: 100%;
+}
+
+.slide5 {
+    background-color: #6c3cac;
+    height: 200px;
+    top: 100%;
+}
+
+.overlapslide45 img{
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid black;
+    width: 1000px;
+    height: 400px;
+    /* background-color: #6c3cac;          */
+    /* This set radius to all 4 corners */  
+    border-radius: 20px;
+    padding: -30px;
+    margin-top: -500px;
+    margin-left: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:20px;
+    color: white;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.BoxLeft  {
+  position: relative;
+  top: -500px;
+  /* z-index: 20px !important; */
+
+  border: 1px solid black;
+  width: 800px;
+  height: 350px;
+  background-color: #6c3cac;         
+  /* This set radius to all 4 corners */  
+  border-radius: 20px;
+  padding: 30px;
+  margin-left: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:20px;
+  color: white;
+}
+
+
+body .Indexcontainer div .BoxRight img  {
+  position: relative;
+  border: 1px solid black;
+  width: 550px;
+  height: auto;
+  /* background-color: #6c3cac;          */
+  /* This set radius to all 4 corners */  
+  border-radius: 20px;
+  padding: -30px;
+  /* margin-top: -50px; */
+  margin-left: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:20px;
+  color: white;
+}
+
+.BuyNowBttn a{
+  border: 1px solid black;
+  background-color: #ffffff;         
+  /* This set radius to all 4 corners */  
+  border-radius: 50px;
+  padding: 20px;
+  width:130px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:20px;
+  text-decoration: none;
+  color: #6c3cac;
+}
+
+.BuyNowBttn input{
+  border: 1px solid black;
+  background-color: #ffffff;         
+  /* This set radius to all 4 corners */  
+  border-radius: 50px;
+  padding: 20px;
+  width:130px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:20px;
+  text-decoration: none;
+  color: #6c3cac;
+}
+
+#text {
+  width:500px;
+  border-radius: 150px;
+}
